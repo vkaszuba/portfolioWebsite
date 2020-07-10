@@ -1,5 +1,52 @@
+
+
+body {
+  background: rgb(30, 30, 30);
+  background-image: url("../images/logo-vkgreen.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 900px;
+  background-attachment: fixed;
+}
+
+#resumeHeader {
+  background: #4f7d41;
+  width: 700px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#resumeFooter {
+  background: #4f7d41;
+  width: 700px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+#homeNav:hover, #aboutNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
+  transition: .5s ease;
+  transform: scale(1.1);
+  color: #4f7d41;
+}
+
 #resume {
-  background: #cacaca;
+  background: #ffffff;
   padding: 40px;
   width: 100%;
   margin-bottom: 90px;
@@ -9,13 +56,14 @@
   font-family: 'Abel', sans-serif;
   line-height: 32px;
   z-index: 1;
+  border-radius: 25px 0px 25px 0px;
 }
 
 /* Main body header info */
 h2 {
   font-family: 'Rajdhani', sans-serif;
   font-size: 40px;
-  color: #3a2e42;
+  color: #4f7d41;
   font-weight: bold;
   margin: 20px;
 }

@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 900px;
+  background-attachment: fixed;
 }
 
 #designHeader {

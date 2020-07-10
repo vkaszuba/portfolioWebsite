@@ -18,7 +18,7 @@ document.getElementById("aboutNav").onclick = function () {
   location.href = "./about.html";
 };
 
-// Redirects navbar button to contact page
-document.getElementById("contactNav").onclick = function () {
-  location.href = "./contact.html";
+// Redirects navbar button to resume page
+document.getElementById("resumeNav").onclick = function () {
+  location.href = "./resume.html";
 };
