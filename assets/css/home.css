@@ -1,3 +1,17 @@
+#nameHeader {
+  font-size: 130px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+#titleHeader {
+  font-size: 38px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+}
+
 #designCard {
   background-color: rgb(97, 199, 177);
   background-image: url("../images/blonde.png");

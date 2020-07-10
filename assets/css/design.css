@@ -1,0 +1,30 @@
+
+#designHeader {
+  background: rgb(83, 215, 219);
+  width: 700px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#designFooter {
+  background: rgb(83, 215, 219);
+  width: 700px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
