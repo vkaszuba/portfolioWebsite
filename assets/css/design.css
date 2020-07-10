@@ -28,3 +28,9 @@
   left: 0;
   bottom: 0;
 }
+
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover {
+  transition: .5s ease;
+  transform: scale(1.1);
+  color: aqua;
+}

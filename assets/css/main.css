@@ -31,11 +31,12 @@ a, a:hover, a:focus {
   position: fixed;
   left: 0;
 }
-#navBarItem {
+#homeNav, #aboutNav, #resumeNav {
+  margin-left: 20px;
   transition: .5s ease;
   line-height: 50px;
 }
-#navBarItem:hover {
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover {
   transition: .5s ease;
   transform: scale(1.1);
 }
