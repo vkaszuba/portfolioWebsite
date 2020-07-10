@@ -1,66 +1,34 @@
-
-html {
-  height: 100%;
-}
-body {
-  background: rgb(30, 30, 30);
-  /* background: linear-gradient(90deg, rgba(105,51,108,1) 0%, rgba(58,44,59,1) 25%, rgba(28,28,28,1) 50%, rgba(4,54,55,1) 75%, rgba(27,73,82,1) 100%); */
-  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-#nameHeader {
-  font-size: 130px;
-  color: white;
-  font-family: 'Rajdhani', sans-serif;
-  text-align: center;
-  margin-top: 20px;
-}
-#titleHeader {
-  font-size: 38px;
-  color: white;
-  font-family: 'Rajdhani', sans-serif;
-  text-align: center;
-}
-
 #designCard {
-background-color: rgb(169, 248, 248);
-background-image: url("../images/blonde.png");
-background-repeat: no-repeat;
-background-position: right;
-margin: 40px;
-height: 600px;
-transition: .5s ease;
-font-size: 100px;
-color: rgb(30, 30, 30);
-font-family: 'Rajdhani', sans-serif;
-text-align: left;
-border-radius: 25px 0px 25px 0px;
-}
-
-#codeCard {
-  background-color: rgb(235, 125, 211);
-  background-image: url("../images/blonde-right.png");
-background-repeat: no-repeat;
-background-position: right;
+  background-color: rgb(97, 199, 177);
+  background-image: url("../images/blonde.png");
+  background-repeat: no-repeat;
+  background-position: right;
   margin: 40px;
   height: 600px;
   transition: .5s ease;
-  font-size: 100px;
-  color: white;
+  font-size: 80px;
+  color: rgb(30, 30, 30);
   font-family: 'Rajdhani', sans-serif;
-  text-align: right;
-  padding-top: 500px;
-  border-radius: 0px 25px 0px 25px;
-}
-#codeCard:hover, #designCard:hover {
-  transition: .5s ease;
-  transform: scale(1.05);
-}
-
-a, a:hover, a:focus {
-  text-decoration: none!important;
-  color: #777;
-}
+  text-align: left;
+  border-radius: 25px 0px 25px 0px;
+  }
+  
+  #codeCard {
+    background-color: rgb(221, 160, 223);
+    background-image: url("../images/blonde-right.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 40px;
+    height: 600px;
+    transition: .5s ease;
+    font-size: 80px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: right;
+    padding-top: 500px;
+    border-radius: 0px 25px 0px 25px;
+  }
+  #codeCard:hover, #designCard:hover {
+    transition: .5s ease;
+    transform: scale(1.05);
+  }

@@ -1,0 +1,45 @@
+#resume {
+  background: #cacaca;
+  padding: 40px;
+  width: 100%;
+  margin-bottom: 90px;
+  margin-top: 90px;
+  color: #777777;
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  line-height: 32px;
+  z-index: 1;
+}
+
+/* Main body header info */
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+  color: #3a2e42;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* Title font for resume companies */
+h3 {
+  color: #777;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+/* Dates worked or graduated on resume */
+h4 {
+  color: #777;
+  margin-left: 13px;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+/* Resume skills two column list */
+ul {
+  columns: 2;
+}

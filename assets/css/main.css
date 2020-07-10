@@ -1,0 +1,31 @@
+
+html {
+  height: 100%;
+}
+body {
+  background: rgb(30, 30, 30);
+  /* background: linear-gradient(90deg, rgba(105,51,108,1) 0%, rgba(58,44,59,1) 25%, rgba(28,28,28,1) 50%, rgba(4,54,55,1) 75%, rgba(27,73,82,1) 100%); */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#nameHeader {
+  font-size: 130px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+#titleHeader {
+  font-size: 38px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none!important;
+  color: #777;
+}
