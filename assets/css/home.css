@@ -13,7 +13,7 @@
 }
 
 #designCard {
-  background-color: rgb(97, 199, 177);
+  background-color: #4aaaa5;
   background-image: url("../images/blonde.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -28,7 +28,7 @@
   }
   
   #codeCard {
-    background-color: rgb(221, 160, 223);
+    background-color:  #3a2e42;
     background-image: url("../images/blonde-right.png");
     background-repeat: no-repeat;
     background-position: right;

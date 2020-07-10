@@ -1,6 +1,15 @@
 
+body {
+  background: rgb(30, 30, 30);
+  background-image: url("../images/logo-vk.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 900px;
+}
+
+
 #codingHeader {
-  background: rgb(187, 83, 219);
+  background: #3a2e42;
   width: 700px;
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -15,7 +24,7 @@
 }
 
 #codingFooter {
-  background: rgb(187, 83, 219);
+  background: #3a2e42;
   width: 700px;
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -32,5 +41,5 @@
 #homeNav:hover, #aboutNav:hover, #resumeNav:hover {
   transition: .5s ease;
   transform: scale(1.1);
-  color: rgb(187, 83, 219);
+  color: #3a2e42;
 }
