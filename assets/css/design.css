@@ -37,7 +37,7 @@ body {
   bottom: 0;
 }
 
-#homeNav:hover, #aboutNav:hover, #resumeNav:hover {
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #codingNav:hover, #contactNav:hover {
   transition: .5s ease;
   transform: scale(1.1);
   color: #4aaaa5;

@@ -3,6 +3,11 @@ document.getElementById("homeNav").onclick = function () {
   location.href = "./home.html";
 };
 
+// Redirects navbar button to design page
+document.getElementById("designNav").onclick = function () {
+  location.href = "./design.html";
+};
+
 // Redirects navbar button to about page
 document.getElementById("aboutNav").onclick = function () {
   location.href = "./about.html";
@@ -11,4 +16,9 @@ document.getElementById("aboutNav").onclick = function () {
 // Redirects navbar button to resume page
 document.getElementById("resumeNav").onclick = function () {
   location.href = "./resume.html";
+};
+
+// Redirects navbar button to contact page
+document.getElementById("contactNav").onclick = function () {
+  location.href = "./contact.html";
 };

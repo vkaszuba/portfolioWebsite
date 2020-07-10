@@ -1,14 +1,15 @@
 
 body {
   background: rgb(30, 30, 30);
-  background-image: url("../images/logo-vkpink.png");
+  background-image: url("../images/logo-vk.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 900px;
 }
 
-#codingHeader {
-  background: #c374c0;
+
+#aboutHeader {
+  background: #3a2e42;
   width: 700px;
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -22,8 +23,8 @@ body {
   top: 0;
 }
 
-#codingFooter {
-  background: #c374c0;
+#aboutFooter {
+  background: #3a2e42;
   width: 700px;
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -37,8 +38,8 @@ body {
   bottom: 0;
 }
 
-#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #contactNav:hover {
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover {
   transition: .5s ease;
   transform: scale(1.1);
-  color: #c374c0;
+  color: #3a2e42;
 }

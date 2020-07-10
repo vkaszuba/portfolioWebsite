@@ -14,22 +14,22 @@
 
 #designCard {
   background-color: #4aaaa5;
-  background-image: url("../images/blonde.png");
+  /* background-image: url("../images/blonde.png"); */
   background-repeat: no-repeat;
   background-position: right;
   margin: 40px;
   height: 600px;
   transition: .5s ease;
   font-size: 80px;
-  color: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
   border-radius: 25px 0px 25px 0px;
   }
   
   #codeCard {
-    background-color:  #3a2e42;
-    background-image: url("../images/blonde-right.png");
+    background-color: #c374c0;
+    /* background-image: url("../images/blonde-right.png"); */
     background-repeat: no-repeat;
     background-position: right;
     margin: 40px;
@@ -39,7 +39,6 @@
     color: white;
     font-family: 'Rajdhani', sans-serif;
     text-align: right;
-    padding-top: 500px;
     border-radius: 0px 25px 0px 25px;
   }
   #codeCard:hover, #designCard:hover {

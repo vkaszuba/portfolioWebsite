@@ -20,7 +20,7 @@ a, a:hover, a:focus {
 
 #navBar {
   background: rgb(255, 255, 255);
-  width: 200px;
+  width: 180px;
   height: 95%;
   font-size: 30px;
   color: rgb(30, 30, 30);
@@ -31,12 +31,12 @@ a, a:hover, a:focus {
   position: fixed;
   left: 0;
 }
-#homeNav, #aboutNav, #resumeNav {
+#homeNav, #aboutNav, #resumeNav, #designNav, #codingNav, #contactNav {
   margin-left: 20px;
   transition: .5s ease;
   line-height: 50px;
 }
-#homeNav:hover, #aboutNav:hover, #resumeNav:hover {
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
   transition: .5s ease;
   transform: scale(1.1);
 }
