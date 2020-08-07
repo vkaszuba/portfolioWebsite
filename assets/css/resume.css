@@ -79,7 +79,7 @@ h3 {
   font-size: 28px;
   font-weight: normal;
   line-height: 50px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 /* Dates worked or graduated on resume */
@@ -89,9 +89,10 @@ h4 {
   font-family: 'Abel', sans-serif;
   font-size: 25px;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 
 /* Resume skills two column list */
 ul {
-  columns: 2;
+  columns: 3;
 }
