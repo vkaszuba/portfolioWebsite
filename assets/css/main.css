@@ -25,18 +25,18 @@ a, a:hover, a:focus {
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
-  padding-top: 165px;
+  padding-top: 110px;
   position: fixed;
   left: 0;
   z-index: 2;
 }
 #homeNav, #aboutNav, #resumeNav, #designNav, #codingNav, #contactNav {
-  width: 150px;
+  width: 160px;
   transition: .5s ease;
   line-height: 40px;
   background-color: #777777;
-  margin-bottom: 100px;
-  padding-left: 30px;
+  margin-bottom: 20px;
+  padding-left: 40px;
   left: 0;
 }
 #homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
