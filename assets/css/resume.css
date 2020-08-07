@@ -11,7 +11,7 @@ body {
 
 #resumeHeader {
   background: #4f7d41;
-  width: 700px;
+  width: 430px;
   font-size: 50px;
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
@@ -22,11 +22,12 @@ body {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 2;
 }
 
 #resumeFooter {
   background: #4f7d41;
-  width: 700px;
+  width: 430px;
   font-size: 50px;
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
@@ -37,26 +38,28 @@ body {
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 2;
 }
 
 #homeNav:hover, #aboutNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
-  transition: .5s ease;
-  transform: scale(1.1);
   color: #4f7d41;
 }
 
 #resume {
   background: #ffffff;
   padding: 40px;
-  width: 100%;
-  margin-bottom: 90px;
-  margin-top: 90px;
+  padding-top: 10px;
+  opacity: 90%;
+  margin-bottom: 120px;
+  margin-top: 120px;
+  margin-left: 100px;
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;
   line-height: 32px;
+  position: absolute;
   z-index: 1;
-  border-radius: 25px 0px 25px 0px;
+  border-radius: 25px 0px 0px 25px;
 }
 
 /* Main body header info */
@@ -66,6 +69,7 @@ h2 {
   color: #4f7d41;
   font-weight: bold;
   margin: 20px;
+  padding-top: 40px;
 }
 
 /* Title font for resume companies */
