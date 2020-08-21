@@ -63,13 +63,14 @@
     border-radius: 25px 0px 25px 0px ;
     right: auto;
     margin-left: 3px;
+    border-style: none;
   }
 
 
 
   h2 {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin: 20px;
     margin-bottom: 20px;
