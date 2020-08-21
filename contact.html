@@ -19,12 +19,35 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/responsiveMain.css">
 
 </head>
 
 <body>
 
   <div class="container">
+
+    <!-- Dropdown menu version of navbar, when screen gets small -->
+    <div class="row">
+      <div class="col">
+        <div id="dropdown">
+          <button class="btn shadow-none" type="button" data-toggle="dropdown">
+            <div class="menuFont">_<br>_<br>_</div>
+          </button>
+          <div class="dropdown-menu">
+            <a href="home.html" class="linkFont">Home</a>
+            <br>
+            <a href="coding.html" class="linkFont">Coding</a>
+            <br>
+            <a href="design.html" class="linkFont">Design</a>
+            <br>
+            <a href="about.html" class="linkFont">About</a>
+            <br>
+            <a href="resume.html" class="linkFont">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div id="navBar" class="row">
       <div class="col">
@@ -93,7 +116,7 @@
 
     <div id="pageContent" className="col">
 
-      <h2>Contact Info</h2>
+      <h2>CONTACT INFO</h2>
 
       <h3>Email:</h3>
       <h4>vikasz@live.com</h4>
