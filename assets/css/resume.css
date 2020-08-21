@@ -1,44 +1,14 @@
 
-
 body {
-  background: rgb(30, 30, 30);
   background-image: url("../images/logo-vkgreen.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 900px;
-  background-attachment: fixed;
 }
 
-#resumeHeader {
+#pageHeader {
   background: #4f7d41;
-  width: 430px;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  font-family: 'Rajdhani', sans-serif;
-  text-align: left;
-  margin-top: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 2;
 }
 
-#resumeFooter {
+#pageFooter {
   background: #4f7d41;
-  width: 430px;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  font-family: 'Rajdhani', sans-serif;
-  text-align: left;
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
 }
 
 #homeNav:hover, #aboutNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
@@ -52,7 +22,7 @@ body {
   opacity: 90%;
   margin-bottom: 120px;
   margin-top: 120px;
-  margin-left: 100px;
+  margin-left: 0px;
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;

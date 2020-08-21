@@ -1,42 +1,13 @@
 
 body {
-  background: rgb(30, 30, 30);
   background-image: url("../images/logo-vkred.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 900px;
-  background-attachment: fixed;
 }
 
-
-#aboutHeader {
+#pageHeader {
   background: #a72626;
-  width: 700px;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  font-family: 'Rajdhani', sans-serif;
-  text-align: left;
-  margin-top: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  position: fixed;
-  left: 0;
-  top: 0;
 }
-
-#aboutFooter {
+#pageFooter {
   background: #a72626;
-  width: 700px;
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  font-family: 'Rajdhani', sans-serif;
-  text-align: left;
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-left: 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
 
 #homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover {
