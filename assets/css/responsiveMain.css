@@ -10,7 +10,7 @@
     position: fixed;
     right: 0;
     top: 0;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
     height: 55px;
     width: 55px;
     background: #777;
@@ -54,8 +54,8 @@
     color: rgb(255, 255, 255);
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     padding: 10px;
     position: fixed;
     left: 0;
@@ -81,25 +81,25 @@
     border-style: none;
   }
   #pageFooter {
-    width: 120px;
-    height: 55px;
+    width: 100px;
+    height: 45px;
     font-size: 40px;
     color: rgb(255, 255, 255);
     font-family: 'Rajdhani', sans-serif;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
     z-index: 2;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 15px 0px 15px 0px;
   }
   #socialIcon {
-    width: 25px;
+    width: 22px;
     margin: 0px;
-    margin-left: 8px;
-    margin-top: 15px;
+    margin-left: 5px;
+    margin-top: 12px;
   }
 
 
