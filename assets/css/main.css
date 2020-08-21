@@ -22,7 +22,7 @@ a, a:hover, a:focus {
 
 #navBar {
   background: rgb(255, 255, 255, 0);
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
@@ -32,7 +32,7 @@ a, a:hover, a:focus {
   z-index: 2;
 }
 #homeNav, #aboutNav, #resumeNav, #designNav, #codingNav, #contactNav {
-  width: 130px;
+  width: 150px;
   transition: .5s ease;
   line-height: 40px;
   background-color: #777777;
@@ -40,7 +40,7 @@ a, a:hover, a:focus {
   margin-left: 35px;
   padding-left: 20px;
   left: 0;
-  border-radius: 0px 10px 0px 10px;
+  border-radius: 10px 0px 10px 0px;
 }
 #homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
   transition: .5s ease;
@@ -54,11 +54,10 @@ a, a:hover, a:focus {
   font-size: 50px;
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
   margin-left: 20px;
   padding: 10px;
-  padding-left: 20px;
   position: fixed;
   left: 0;
   top: 0;
@@ -80,6 +79,8 @@ a, a:hover, a:focus {
   line-height: 32px;
   position: absolute;
   z-index: 1;
+  right: 0;
+  margin-right: 50px;
   border-radius: 25px 0px 25px 0px ;
 }
 #pageFooter {
@@ -110,6 +111,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   margin: 20px;
+  margin-bottom: 40px;
   padding-top: 40px;
   line-height: 40px;
 }
