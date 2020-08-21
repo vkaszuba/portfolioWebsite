@@ -105,7 +105,7 @@
 
 
   h2 {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 30px;
     font-weight: bold;
     margin: 20px;
@@ -134,14 +134,14 @@
   ul {
     columns: 1;
     line-height: 20px;
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 0px;
   }
   li {
     list-style: none;
     columns: 2;
     line-height: 20px;
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 0px;
   }
 
