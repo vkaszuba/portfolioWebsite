@@ -26,7 +26,7 @@ a, a:hover, a:focus {
   color: rgb(255, 255, 255);
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
-  padding-top: 110px;
+  padding-top: 25px;
   position: fixed;
   left: 0;
   z-index: 2;
@@ -71,7 +71,7 @@ a, a:hover, a:focus {
   padding-top: 10px;
   opacity: 90%;
   margin-bottom: 120px;
-  margin-top: 120px;
+  margin-top: 25px;
   margin-left: 0px;
   color: #777777;
   font-size: 25px;

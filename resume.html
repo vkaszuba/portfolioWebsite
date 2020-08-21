@@ -19,12 +19,33 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/resume.css">
+  <link rel="stylesheet" href="assets/css/responsiveMain.css">
 
 </head>
 
 <body>
 
   <div class="container">
+
+    <!-- Dropdown menu version of navbar, when screen gets small -->
+    <div class="row">
+      <div class="col">
+        <div id="dropdown">
+          <button class="btn shadow-none" type="button" data-toggle="dropdown">
+            <div class="menuFont">_<br>_<br>_</div>
+          </button>
+          <div class="dropdown-menu">
+            <a href="about.html" class="linkFont">About</a>
+            <br>
+            <a href="design.html" class="linkFont">Design</a>
+            <br>
+            <a href="resume.html" class="linkFont">Resume</a>
+            <br>
+            <a href="contact.html" class="linkFont">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div id="navBar" class="row">
       <div class="col">
@@ -79,10 +100,10 @@
       <div class="col">
 
         <a href="https://github.com/vkaszuba" target="_blank">
-        <img id="socialIcon" src="./assets/images/logo-linkedin-white.png">
+          <img id="socialIcon" src="./assets/images/logo-linkedin-white.png">
         </a>
         <a href="https://www.linkedin.com/in/victoriakaszuba/" target="_blank">
-        <img id="socialIcon" src="./assets/images/logo-github-white.png">
+          <img id="socialIcon" src="./assets/images/logo-github-white.png">
         </a>
 
       </div>
