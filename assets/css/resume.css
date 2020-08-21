@@ -6,7 +6,6 @@ body {
 #pageHeader {
   background: #4f7d41;
 }
-
 #pageFooter {
   background: #4f7d41;
 }
@@ -15,54 +14,6 @@ body {
   color: #4f7d41;
 }
 
-#resume {
-  background: #ffffff;
-  padding: 40px;
-  padding-top: 10px;
-  opacity: 90%;
-  margin-bottom: 120px;
-  margin-top: 120px;
-  margin-left: 0px;
-  color: #777777;
-  font-size: 25px;
-  font-family: 'Abel', sans-serif;
-  line-height: 32px;
-  position: absolute;
-  z-index: 1;
-  border-radius: 25px 0px 0px 25px;
-}
-
-/* Main body header info */
 h2 {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 40px;
   color: #4f7d41;
-  font-weight: bold;
-  margin: 20px;
-  padding-top: 40px;
-}
-
-/* Title font for resume companies */
-h3 {
-  color: #777;
-  font-family: 'Abel', sans-serif;
-  font-size: 28px;
-  font-weight: normal;
-  line-height: 50px;
-  margin-top: 25px;
-}
-
-/* Dates worked or graduated on resume */
-h4 {
-  color: #777;
-  margin-left: 13px;
-  font-family: 'Abel', sans-serif;
-  font-size: 25px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-
-/* Resume skills two column list */
-ul {
-  columns: 3;
 }

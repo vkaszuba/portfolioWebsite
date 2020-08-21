@@ -60,6 +60,22 @@ a, a:hover, a:focus {
   top: 0;
   z-index: 2;
 }
+#pageContent {
+  background: #ffffff;
+  padding: 40px;
+  padding-top: 10px;
+  opacity: 90%;
+  margin-bottom: 120px;
+  margin-top: 120px;
+  margin-left: 0px;
+  color: #777777;
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  line-height: 32px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 25px 0px 0px 25px;
+}
 #pageFooter {
   width: 160px;
   font-size: 50px;
@@ -77,4 +93,32 @@ a, a:hover, a:focus {
 #socialIcon {
   width: 35px;
   margin-top: 10px;
+}
+
+
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  padding-top: 40px;
+}
+h3 {
+  color: #777;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 50px;
+  margin-top: 25px;
+}
+h4 {
+  color: #777;
+  margin-left: 13px;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+ul {
+  columns: 3;
 }
