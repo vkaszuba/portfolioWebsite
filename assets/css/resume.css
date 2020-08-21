@@ -10,7 +10,7 @@ body {
   background: #4f7d41;
 }
 
-#homeNav:hover, #aboutNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
   color: #4f7d41;
 }
 

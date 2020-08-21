@@ -10,9 +10,7 @@ body {
   background: #a72626;
 }
 
-#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover {
-  transition: .5s ease;
-  transform: scale(1.1);
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
   color: #a72626;
 }
 
