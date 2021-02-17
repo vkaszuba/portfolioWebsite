@@ -17,3 +17,8 @@ body {
 h2 {
   color: #4f7d41;
 }
+
+h3 {
+  font-weight: bold;
+  margin-top: 40px;
+}

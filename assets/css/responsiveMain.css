@@ -157,14 +157,14 @@
   }
   ul {
     columns: 1;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 18px;
     margin-left: 0px;
   }
   li {
     list-style: none;
     columns: 2;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 18px;
     margin-left: 0px;
   }
