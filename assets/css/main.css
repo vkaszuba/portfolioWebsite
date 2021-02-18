@@ -1,6 +1,7 @@
 
 html {
   height: 100%;
+  margin-top: 0px;
 }
 
 body {
@@ -9,10 +10,19 @@ body {
   height: 100%;
   margin: 0;
   background-size: 900px;
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+  /* Dropdown navbar menu button */
+  #dropdown {
+    visibility: hidden;
+  }
+  /* Dropdown menu list */
+  .dropdown-menu {
+    visibility: hidden;
+  }
 
 /* Link hover decoration removal */
 a, a:hover, a:focus {
@@ -67,7 +77,7 @@ a, a:hover, a:focus {
 }
 #pageContent {
   background: #ffffff;
-  width: 70%;
+  width: 60%;
   padding: 40px;
   padding-top: 10px;
   margin-top: 0px;
@@ -79,7 +89,7 @@ a, a:hover, a:focus {
   position: absolute;
   z-index: 1;
   right: 0;
-  margin-right: 50px;
+  margin-right: 100px;
   border-radius: 25px 0px 25px 0px ;
 }
 #pageFooter {

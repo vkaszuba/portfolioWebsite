@@ -1,5 +1,10 @@
 @media screen and (max-width: 768px){
 
+  html {
+    height: 100%;
+    margin-top: 10px;
+  }
+
   #nameHeader {
     font-size: 80px;
     color: white;
@@ -31,6 +36,7 @@
    
   /* Dropdown navbar menu button */
   #dropdown {
+    visibility: visible;
     position: fixed;
     right: 0;
     top: 0;
@@ -45,6 +51,7 @@
   }
   /* Dropdown menu list */
   .dropdown-menu {
+    visibility: visible;
     z-index: 4;
     background-color: #777;
     border-style: none;
@@ -99,6 +106,7 @@
     font-family: 'Abel', sans-serif;
     line-height: 20px;
     border-radius: 25px 0px 25px 0px ;
+    z-index: 1;
     right: auto;
     margin-left: 3px;
     border-style: none;
@@ -150,7 +158,7 @@
     margin: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
-    line-height: 20px;
+    line-height: 25px;
     margin-left: 0px;
   }
   h3 {
