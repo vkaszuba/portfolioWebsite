@@ -70,7 +70,6 @@ a, a:hover, a:focus {
   width: 70%;
   padding: 40px;
   padding-top: 10px;
-  opacity: 90%;
   margin-bottom: 120px;
   margin-top: 25px;
   margin-left: 0px;
@@ -110,11 +109,15 @@ a, a:hover, a:focus {
   margin: 0px;
   margin-left: 15px;
   margin-top: 50px;
+  transition: .5s ease;
 }
 #portfolioSheet {
   width: 100%;
-  margin: 0px;
   margin-top: 50px;
+}
+.portfolioBtn:hover {
+  transition: .5s ease;
+  transform: scale(1.05);
 }
 
 
