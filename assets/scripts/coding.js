@@ -22,3 +22,8 @@ document.getElementById("resumeNav").onclick = function () {
 document.getElementById("contactNav").onclick = function () {
   location.href = "./contact.html";
 };
+
+// Redirects navbar button to coding page
+document.getElementById("codingNav").onclick = function () {
+  location.href = "./coding.html";
+};

@@ -6,6 +6,9 @@ body {
 #pageHeader {
   background: #c374c0;
 }
+#pageContent {
+  opacity: 100%;
+}
 #pageFooter {
   background: #c374c0;
 }
