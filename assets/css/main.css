@@ -114,6 +114,7 @@ a, a:hover, a:focus {
 #portfolioSheet {
   width: 100%;
   margin-top: 50px;
+  border-radius: 25px 0px 25px 0px ;
 }
 .portfolioBtn:hover {
   transition: .5s ease;
