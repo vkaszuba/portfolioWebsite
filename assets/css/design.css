@@ -6,9 +6,6 @@ body {
 #pageHeader {
   background: #4aaaa5;
 }
-#pageContent {
-  opacity: 100%;
-}
 #pageFooter {
   background: #4aaaa5;
 }
@@ -19,4 +16,13 @@ body {
 
 h2 {
   color: #4aaaa5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 60px;
+    line-height: 30px;
 }
