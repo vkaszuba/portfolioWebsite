@@ -71,18 +71,19 @@
   }
 
   #nameHeader {
-    font-size: 80px;
+    font-size: 85px;
     color: white;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   #titleHeader {
-    display: none;
+    font-size: 35px;
+    margin-top: 20px;
   }
   #designCard {
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-top: 10px;
     height: 100px;
     font-size: 80px;
@@ -163,7 +164,6 @@
     background: #ffffff;
     width: 90%;
     margin: auto;
-    padding-top: 10px;
     margin-bottom: 65px;
     margin-top: 75px;
     color: #777777;
@@ -175,6 +175,8 @@
     right: auto;
     margin-left: 3px;
     border-style: none;
+    padding: 30px;
+    padding-top: 10px;
   }
   #pageFooter {
     width: 100px;
