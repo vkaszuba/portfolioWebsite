@@ -40,6 +40,7 @@ a, a:hover, a:focus {
   position: fixed;
   left: 0;
   z-index: 2;
+  cursor: pointer;
 }
 #homeNav, #aboutNav, #resumeNav, #designNav, #codingNav, #contactNav {
   width: 150px;
@@ -74,6 +75,7 @@ a, a:hover, a:focus {
   top: 0;
   z-index: 2;
   border-radius: 15px 0px 15px 0px;
+  cursor: default;
 }
 #pageContent {
   background: #ffffff;
